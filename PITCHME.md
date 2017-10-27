@@ -241,7 +241,9 @@ Une image vaut mieux que mille mots.
 
 @title[.]
 
-![Texte alternatif](h4qBYDH.png "Screenshot")
+https://i.imgur.com/h4qBYDH.png
+
+![Texte alternatif](https://i.imgur.com/h4qBYDH.png "Screenshot")
 
 
 ---
