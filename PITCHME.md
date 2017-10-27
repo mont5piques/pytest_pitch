@@ -5,29 +5,31 @@
 ---
 @title[État des lieux]
 
-# État des lieux
+### État des lieux
 
-dfsddfsdf
-sdfsd
+#### Points positifs :
+
+* Passage à pytest
+
+#### Points à améliorer/revoir
+
+* Tests chronophages
+* Monopolisent la plateforme pendant le test
+* Difficulté de rejouer un test (syntaxe non-intuitive)
+* Découpage très sommaire
 
 ---
 
-#### No more <span style="color: gray">Keynote.</span>
-#### No more <span style="color: gray">Powerpoint.</span>
-<br>
-#### Just <span style="color: #e49436">Markdown</span>.
-#### Then <span style="color: #e49436">Git-Commit</span>.
+### Exploration des pistes
+
+* Fonctionnalités de base fournies par pytest
+* Plugins pytest
+* Adaptation des tests (découpage, restructuration)
+* Autres
 
 ---
-@title[Step 1. PITCHME.md]
 
-### <span style="color: #e49436">STEP 1. Create 'PITCHME.md'</span>
-<br>
 
-#### Create GitPitch slideshow content using GitHub Flavored Markdown in your favorite editor.
-
-<br>
-<span style="color:gray; font-size:0.6em;">[ AS EASY AS README.md WITH SIMPLE --- SLIDE DELIMITER ]</span>
 
 ---
 @title[Step 2. Git-Commit]
