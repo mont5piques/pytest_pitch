@@ -191,6 +191,9 @@ Code générant un résultat :
         # alternative method to record output:
         regtest.write("done")
 
+---
+@title[.]
+
 L'exécution du test échoue (diff avec donnée nulle)
 
     py.test
@@ -206,6 +209,9 @@ L'exécution du test échoue (diff avec donnée nulle)
     >       -done
     >       +
 
+---
+@title[.]
+
 On assume que le résultat est correct :
 
     py.test --regtest-reset
@@ -218,5 +224,60 @@ On refait le test :
 
 @title[.]
 
-### dgfd
+### pytest-report
 
+* Crée un rapport JSON compatible avec le format atom.IO
+* On s’en fout du format atom.IO du moment que c’est pas du XML
+
+---
+
+@title[.]
+
+### pytest-browser
+
+Une image vaut mieux que mille mots.
+
+
+---
+@title[.]
+
+# Autres
+
+---
+
+@title[.]
+
+### Image docker routemm
+
+Image docker prête à l'emploi
+
+* Étape 1 : build `docker build -t routemm .` 
+* Etape 2: enjoy `./docker-run` 
+
+---
+
+@title[.]
+
+### Avantages
+
+* Déploiement de la branche en cours dans un environnement totalement isolé
+* Exécution des tests dans l'env docker
+* On peut faire autre chose en attendant
+
+---
+
+@title[.]
+
+# Conclusion
+
+---
+
+@title[.]
+
+# Y a de quoi faire
+
+---
+
+@title[.]
+
+# Ou pas !
