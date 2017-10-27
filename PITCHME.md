@@ -7,11 +7,11 @@
 
 ### État des lieux
 
-#### Points positifs :
+**Points positifs :**
 
 * Passage à pytest
 
-#### Points à améliorer/revoir
+**Points à améliorer/revoir**
 
 * Tests chronophages
 * Monopolisent la plateforme pendant le test
@@ -19,7 +19,7 @@
 * Découpage très sommaire
 
 ---
-@title[État des lieux]
+@title[..]
 
 ### Exploration des pistes
 
@@ -29,7 +29,27 @@
 * Autres
 
 ---
+@title[..]
 
+### Fixtures
+
+* Définition pytest : *« The purpose of test fixtures is to provide a fixed baseline upon which tests can reliably and repeatedly execute. pytest fixtures offer dramatic improvements over the classic xUnit style of setup/teardown functions »*
+* Interprétation perso : Une fixture permet de gérer une dépendance commune à plusieurs tests permettant de factoriser le l'écriture des tests
+
+---
+@title[..]
+
+### Fixtures : Exemple
+
+    import pytest
+
+    @pytest.fixture
+    def http_client():
+        return …..
+
+    def test_toto(client):
+        response, msg = client.fetch(‘mon_url’)
+        assert response.code == 200
 
 
 ---
